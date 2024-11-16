@@ -26,8 +26,7 @@ def card():
         data = json.load(file)
         for items in data:
             if items['id'] == int(id):
-                return f'{os.environ.get('appmail')}<br>{os.environ.get('apppassword')}'
-              #  return render_template('card.html',data=items)
+               return render_template('card.html',data=items)
     return render_template('card.html',data='Order cannot be place.')
 
 @app.route('/order',methods=['POST'])
