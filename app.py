@@ -46,7 +46,7 @@ def send_email(username,email,mob,mesg,Order):
     msg = Message(
         subject="Enquiry Email.",
         sender=email,
-        recipients=["contactjadanghadan@gmail.com"],  # list of recipients
+        recipients=[os.environ.get('appmail')],  # list of recipients
         body=''
     )
     msg.html = render_template('mail.html', user=username, mob=mob, message=mesg,data=Order)
