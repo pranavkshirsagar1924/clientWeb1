@@ -21,7 +21,7 @@ body, html {
 }
 
 .navbar img {
-    height: 40px; /* Logo height */
+    height: 1.5rem; /* Logo height */
 }
 
 /* Main Board Styles */
@@ -133,13 +133,13 @@ button:hover {
     #cardBoard {
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     }
-    .navbar img{
-        height: 30px;
-    }
     .main-board{
         height: 10vh;
         margin: 0rem;
         border-radius:0px;
+    }
+     .button-board{
+        width: 60%;
     }
     #tagline{
         font-size: 20px;
@@ -157,11 +157,11 @@ button:hover {
         margin: 0rem;
         border-radius:0px;
     }
+     .button-board{
+        width: 60%;
+    }
     #tagline{
         font-size: 20px;
-    }
-    .navbar img{
-        height: 30px;
     }
     .card{
         width: 100%;
