@@ -1,7 +1,7 @@
 body, html {
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #f9f9f9;
 }
 
@@ -134,14 +134,15 @@ button:hover {
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     }
     .navbar img{
-        height: 10px;
+        height: 30px;
     }
     .main-board{
         height: 10vh;
         margin: 0rem;
+        border-radius:0px;
     }
     #tagline{
-        font-size: 10px;
+        font-size: 15px;
     }
     .card{
         width: 100%;
@@ -154,12 +155,13 @@ button:hover {
     .main-board{
         height: 10vh;
         margin: 0rem;
+        border-radius:0px;
     }
     #tagline{
-        font-size: 10px;
+        font-size: 15px;
     }
     .navbar img{
-        height: 10px;
+        height: 30px;
     }
     .card{
         width: 100%;
