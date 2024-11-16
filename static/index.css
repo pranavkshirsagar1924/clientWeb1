@@ -31,7 +31,7 @@ body, html {
     width: 90%;
     border-radius: 10px;
     background-image: url('/static/cover.jpg');
-    padding: 4rem 2rem;
+    padding: 4rem 0rem;
     margin: 2rem;
     text-align: center;
     background-repeat: no-repeat;
