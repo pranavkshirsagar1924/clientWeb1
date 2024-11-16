@@ -1,177 +1,177 @@
 [
     {
         "id": 1,
-        "title": "Modern Art Piece",
-        "description": "A beautiful piece of modern art that brings elegance to any room.",
-        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "price": "$150"
+        "title": "Gold Necklace",
+        "description": "An elegant 18k gold necklace with a timeless design, perfect for any special occasion.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
+        "price": "Rs 12,450"
     },
     {
         "id": 2,
-        "title": "Stylish Sofa",
-        "description": "A comfortable and stylish sofa, perfect for any living room.",
-        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "price": "$600"
+        "title": "Gold Earrings",
+        "description": "Stylish 22k gold earrings that add a touch of sophistication to any outfit.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
+        "price": "Rs 16,600"
     },
     {
         "id": 3,
-        "title": "Vintage Lamp",
-        "description": "A retro lamp that adds character to your home decor.",
-        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "price": "$75"
+        "title": "Gold Bracelet",
+        "description": "A beautifully crafted 14k gold bracelet, designed to add elegance and charm to your wrist.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
+        "price": "Rs 9,960"
     },
     {
         "id": 4,
-        "title": "Handmade Vase",
-        "description": "A handcrafted vase that complements flowers and home decor.",
-        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "price": "$45"
+        "title": "Gold Ring",
+        "description": "A stunning 18k gold ring, perfect for engagements or as a luxury gift.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
+        "price": "Rs 20,750"
     },
     {
         "id": 5,
-        "title": "Abstract Wall Art",
-        "description": "Abstract wall art that brings creativity and life to any wall.",
-        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "price": "$120"
+        "title": "Gold Pendant",
+        "description": "An intricate 22k gold pendant, designed to be the perfect centerpiece for any necklace.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
+        "price": "Rs 14,940"
     },
     {
         "id": 6,
-        "title": "Comfy Armchair",
-        "description": "A cozy armchair to relax after a long day.",
-        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "price": "$350"
+        "title": "Gold Chain",
+        "description": "A classic 24k gold chain, perfect for layering or as a standalone piece.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
+        "price": "Rs 29,050"
     },
     {
         "id": 7,
-        "title": "Ceramic Tea Set",
-        "description": "An elegant ceramic tea set perfect for any tea lover.",
-        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "price": "$80"
+        "title": "Gold Anklet",
+        "description": "A delicate 18k gold anklet that adds a touch of elegance to any summer outfit.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
+        "price": "Rs 7,885"
     },
     {
         "id": 8,
-        "title": "Wooden Dining Table",
-        "description": "A rustic wooden table that brings warmth to your dining area.",
-        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "price": "$900"
+        "title": "Gold Watch",
+        "description": "A luxurious 22k gold watch, combining timeless design with modern functionality.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
+        "price": "Rs 41,650"
     },
     {
         "id": 9,
-        "title": "Elegant Floor Lamp",
-        "description": "A tall floor lamp to light up your space in style.",
-        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "price": "$95"
+        "title": "Gold Cufflinks",
+        "description": "A pair of refined 14k gold cufflinks, perfect for formal occasions and adding a sophisticated touch.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
+        "price": "Rs 8,300"
     },
     {
         "id": 10,
-        "title": "Modern Coffee Table",
-        "description": "A minimalist coffee table with a sleek design.",
-        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "price": "$200"
+        "title": "Gold Brooch",
+        "description": "A vintage-style 18k gold brooch, perfect for adding a vintage touch to your outfit.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
+        "price": "Rs 6,225"
     },
     {
         "id": 11,
-        "title": "Luxury Bed Frame",
-        "description": "An elegant bed frame for the perfect night’s sleep.",
-        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "price": "$1200"
+        "title": "Gold Toe Ring",
+        "description": "A stylish 22k gold toe ring, designed to enhance your look for the warmer seasons.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
+        "price": "Rs 3,320"
     },
     {
         "id": 12,
-        "title": "Wall Mirror",
-        "description": "A stylish wall mirror to add depth to any room.",
-        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "price": "$65"
+        "title": "Gold Hairpin",
+        "description": "A delicate 24k gold hairpin to elegantly hold your hairstyle in place, adding a refined touch.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
+        "price": "Rs 5,000"
     },
     {
         "id": 13,
-        "title": "Antique Clock",
-        "description": "An antique clock that brings vintage charm to your decor.",
-        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "price": "$130"
+        "title": "Gold Nose Pin",
+        "description": "A stunning 18k gold nose pin, a simple yet elegant accessory to enhance your facial features.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
+        "price": "Rs 3,320"
     },
     {
         "id": 14,
-        "title": "Luxury Sofa Set",
-        "description": "A luxury sofa set that combines comfort and style.",
-        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "price": "$1100"
+        "title": "Gold Earrings Set",
+        "description": "A set of matching 22k gold earrings, designed for special occasions or everyday elegance.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
+        "price": "Rs 18,300"
     },
     {
         "id": 15,
-        "title": "Outdoor Chair Set",
-        "description": "Durable outdoor chairs ideal for a patio or garden.",
-        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "price": "$220"
+        "title": "Gold Engagement Ring",
+        "description": "A luxurious 18k gold engagement ring, designed to make the perfect proposal.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
+        "price": "Rs 41,650"
     },
     {
         "id": 16,
-        "title": "Modern Book Shelf",
-        "description": "A contemporary bookshelf for organizing your favorite reads.",
-        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "price": "$180"
+        "title": "Gold Keychain",
+        "description": "A sleek and stylish 14k gold keychain, perfect for personalizing your keys.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
+        "price": "Rs 2,490"
     },
     {
         "id": 17,
-        "title": "Classic Dining Chair",
-        "description": "A timeless dining chair to enhance your dining experience.",
-        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "price": "$50"
+        "title": "Gold Hair Comb",
+        "description": "An intricate 22k gold hair comb, designed for elegance and style.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
+        "price": "Rs 7,470"
     },
     {
         "id": 18,
-        "title": "Garden Hammock",
-        "description": "A relaxing hammock perfect for an outdoor nap.",
-        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "price": "$40"
+        "title": "Gold Wedding Band",
+        "description": "A classic 24k gold wedding band, symbolizing love and commitment.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
+        "price": "Rs 24,900"
     },
     {
         "id": 19,
-        "title": "Portable Grill",
-        "description": "A portable grill, perfect for outdoor barbecues.",
-        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "price": "$110"
+        "title": "Gold Pendant Necklace",
+        "description": "A stunning gold pendant necklace that makes a beautiful statement on any occasion.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
+        "price": "Rs 16,600"
     },
     {
         "id": 20,
-        "title": "Luxury Bedding Set",
-        "description": "High-quality bedding for a luxurious sleeping experience.",
-        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "price": "$140"
+        "title": "Gold Cocktail Ring",
+        "description": "An eye-catching 18k gold cocktail ring, perfect for making a bold statement.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
+        "price": "Rs 13,290"
     },
     {
         "id": 21,
-        "title": "Decorative Pillow Set",
-        "description": "A set of decorative pillows to add comfort and style.",
-        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "price": "$45"
+        "title": "Gold Charm Bracelet",
+        "description": "A charming 14k gold bracelet with small gold charms, perfect for adding a personal touch.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
+        "price": "Rs 12,450"
     },
     {
         "id": 22,
-        "title": "Abstract Sculpture",
-        "description": "A unique sculpture to bring an artistic touch to your home.",
-        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "price": "$230"
+        "title": "Gold Cuff Bracelet",
+        "description": "A minimalist 22k gold cuff bracelet, perfect for any occasion.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
+        "price": "Rs 14,940"
     },
     {
         "id": 23,
-        "title": "Outdoor Swing Chair",
-        "description": "A swing chair for relaxing outdoors.",
-        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "price": "$180"
+        "title": "Gold Hoop Earrings",
+        "description": "Classic 18k gold hoop earrings, a perfect accessory for everyday wear.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
+        "price": "Rs 15,770"
     },
     {
         "id": 24,
-        "title": "Luxury Rug",
-        "description": "A luxury rug to complete any living space.",
-        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "price": "$300"
+        "title": "Gold Candle Holder",
+        "description": "A luxurious gold candle holder with intricate detailing, perfect for any sophisticated space.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
+        "price": "Rs 4,565"
     },
     {
         "id": 25,
-        "title": "Designer Chair",
-        "description": "An elegant designer chair for a modern touch.",
-        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "price": "$250"
+        "title": "Gold Decorative Wall Panel",
+        "description": "A decorative gold wall panel, featuring intricate gold ornament work.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
+        "price": "Rs 7,060"
     }
 ]
