@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
+        integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.min.css"
+        integrity="sha512-i1b/nzkVo97VN5WbEtaPebBG8REvjWeqNclJ6AItj7msdVcaveKrlIIByDpvjk5nwHjXkIqGZscVxOrTb9tsMA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/static/order.css">
+</head>
+<body>
+   <div class="board">
+     <div class="box">
+        <div id="cardBoard">
+            <div class="card">
+                <div class="thumbnail">
+                    <img src="{{data.img}}">
+                </div>
+                <div class="title">{{data.title}}</div>
+                <div class="desc">{{data.description}}</div>
+                <div class="price">{{data.price}}</div>
+            </div>
+        </div>
+            <div class="form">
+                <img src="/static/logo.svg" height="30rem" width="auto">
+                <form action="/order" method="post">
+                    <input type="text" name="name" placeholder="Enter your name">
+                    <input type="email" name="email" placeholder="Enter yout mail">
+                    <input type="number" name="mob" placeholder="Enter contact number">
+                    <textarea rows="5" cols="5" name="msg" placeholder="Enter custom message"></textarea>
+                    <input type="hidden" name="order" value='{"img":"{{data.img}}","title":"{{data.title}}","description":"{{data.description}}","price":"{{data.price}}"}'>
+                    <input type="submit" name="submit" value="Send">
+                </form>
+            </div>
+        </div>
+     </div>
+   </div>
+    <script src="/static/index.js"></script>
+</body>
+
+</html>

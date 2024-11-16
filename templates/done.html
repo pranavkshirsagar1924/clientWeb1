@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            Done
+        </title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: Arial, sans-serif;
+            }
+    
+            /* Body Styles */
+            body {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                min-height: 100vh;
+                background-color: #f3f1f9; /* Soft background color */
+            }
+    
+            /* Message Box Styling */
+            .msg-box {
+                background-color: #6a0dad; /* Primary purple color */
+                color: #fff;
+                padding: 2rem;
+                border-radius: 10px;
+                max-width: 500px;
+                text-align: center;
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+                animation: fadeIn 0.6s ease-in-out;
+            }
+    
+            .msg-box p {
+                font-size: 1.2rem;
+                font-weight: bold;
+            }
+    
+            /* Animation */
+            @keyframes fadeIn {
+                from {
+                    opacity: 0;
+                    transform: scale(0.9);
+                }
+                to {
+                    opacity: 1;
+                    transform: scale(1);
+                }
+            }
+        </style>
+    </head>
+    <body>
+       <div class="msg-box">
+        <p text-align="center">{{msg}}</p>
+       </div>
+    </body>
+</html>

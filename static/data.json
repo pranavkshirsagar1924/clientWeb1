@@ -1,0 +1,177 @@
+[
+    {
+        "id": 1,
+        "title": "Modern Art Piece",
+        "description": "A beautiful piece of modern art that brings elegance to any room.",
+        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": "$150"
+    },
+    {
+        "id": 2,
+        "title": "Stylish Sofa",
+        "description": "A comfortable and stylish sofa, perfect for any living room.",
+        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": "$600"
+    },
+    {
+        "id": 3,
+        "title": "Vintage Lamp",
+        "description": "A retro lamp that adds character to your home decor.",
+        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": "$75"
+    },
+    {
+        "id": 4,
+        "title": "Handmade Vase",
+        "description": "A handcrafted vase that complements flowers and home decor.",
+        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": "$45"
+    },
+    {
+        "id": 5,
+        "title": "Abstract Wall Art",
+        "description": "Abstract wall art that brings creativity and life to any wall.",
+        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": "$120"
+    },
+    {
+        "id": 6,
+        "title": "Comfy Armchair",
+        "description": "A cozy armchair to relax after a long day.",
+        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": "$350"
+    },
+    {
+        "id": 7,
+        "title": "Ceramic Tea Set",
+        "description": "An elegant ceramic tea set perfect for any tea lover.",
+        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": "$80"
+    },
+    {
+        "id": 8,
+        "title": "Wooden Dining Table",
+        "description": "A rustic wooden table that brings warmth to your dining area.",
+        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": "$900"
+    },
+    {
+        "id": 9,
+        "title": "Elegant Floor Lamp",
+        "description": "A tall floor lamp to light up your space in style.",
+        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": "$95"
+    },
+    {
+        "id": 10,
+        "title": "Modern Coffee Table",
+        "description": "A minimalist coffee table with a sleek design.",
+        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": "$200"
+    },
+    {
+        "id": 11,
+        "title": "Luxury Bed Frame",
+        "description": "An elegant bed frame for the perfect night’s sleep.",
+        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": "$1200"
+    },
+    {
+        "id": 12,
+        "title": "Wall Mirror",
+        "description": "A stylish wall mirror to add depth to any room.",
+        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": "$65"
+    },
+    {
+        "id": 13,
+        "title": "Antique Clock",
+        "description": "An antique clock that brings vintage charm to your decor.",
+        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": "$130"
+    },
+    {
+        "id": 14,
+        "title": "Luxury Sofa Set",
+        "description": "A luxury sofa set that combines comfort and style.",
+        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": "$1100"
+    },
+    {
+        "id": 15,
+        "title": "Outdoor Chair Set",
+        "description": "Durable outdoor chairs ideal for a patio or garden.",
+        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": "$220"
+    },
+    {
+        "id": 16,
+        "title": "Modern Book Shelf",
+        "description": "A contemporary bookshelf for organizing your favorite reads.",
+        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": "$180"
+    },
+    {
+        "id": 17,
+        "title": "Classic Dining Chair",
+        "description": "A timeless dining chair to enhance your dining experience.",
+        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": "$50"
+    },
+    {
+        "id": 18,
+        "title": "Garden Hammock",
+        "description": "A relaxing hammock perfect for an outdoor nap.",
+        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": "$40"
+    },
+    {
+        "id": 19,
+        "title": "Portable Grill",
+        "description": "A portable grill, perfect for outdoor barbecues.",
+        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": "$110"
+    },
+    {
+        "id": 20,
+        "title": "Luxury Bedding Set",
+        "description": "High-quality bedding for a luxurious sleeping experience.",
+        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": "$140"
+    },
+    {
+        "id": 21,
+        "title": "Decorative Pillow Set",
+        "description": "A set of decorative pillows to add comfort and style.",
+        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": "$45"
+    },
+    {
+        "id": 22,
+        "title": "Abstract Sculpture",
+        "description": "A unique sculpture to bring an artistic touch to your home.",
+        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": "$230"
+    },
+    {
+        "id": 23,
+        "title": "Outdoor Swing Chair",
+        "description": "A swing chair for relaxing outdoors.",
+        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": "$180"
+    },
+    {
+        "id": 24,
+        "title": "Luxury Rug",
+        "description": "A luxury rug to complete any living space.",
+        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": "$300"
+    },
+    {
+        "id": 25,
+        "title": "Designer Chair",
+        "description": "An elegant designer chair for a modern touch.",
+        "img": "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": "$250"
+    }
+]
