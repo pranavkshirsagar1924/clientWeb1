@@ -4,10 +4,12 @@ import json
 import os
 
 app = Flask(__name__)
+m = os.environ.get('contactjadanghadan@gmail.com')
+p = os.environ.get('pmty htcu igln qwvd')
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 465
-app.config['MAIL_USERNAME'] = 'contactjadanghadan@gmail.com'
-app.config['MAIL_PASSWORD'] = 'pmty htcu igln qwvd'
+app.config['MAIL_USERNAME'] = m
+app.config['MAIL_PASSWORD'] = p
 app.config['MAIL_USE_TLS'] = False
 app.config['MAIL_USE_SSL'] = True
 mail = Mail(app)
