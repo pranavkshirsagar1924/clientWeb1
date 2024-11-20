@@ -18,17 +18,43 @@ mail = Mail(app)
 def home():
     with open ('static/data.json','r') as file:
         data = json.load(file)
-        print(data)
-    return render_template("home.html",data=data)
+    return render_template("home.html",data=data[0],pins=data[1],ring=data[2],pen=data[3],mangal=data[4],kangan=data[5])
 
 @app.route('/card')
 def card():
     id = request.args.get('id')
+    Type = request.args.get('type')
+    print(Type)
     with open ('static/data.json','r') as file:
-        data = json.load(file)
-        for items in data:
+      data = json.load(file)
+      if Type == 'card':
+          for items in data[0]:
             if items['id'] == int(id):
-               return render_template('card.html',data=items)
+                return render_template('card.html',data=items)
+      if Type == 'pin':
+        for items in data[1]:
+            if items['id'] == int(id):
+                return render_template('card.html',data=items)
+      if Type == 'cover':
+          for items in data[1]:
+              if items['id'] == int(id):
+                return render_template('card.html',data=items)
+      if Type == 'ring':
+          for items in data[2]:
+              if items['id'] == int(id):
+                return render_template('card.html',data=items)
+      if Type == 'pen':
+          for items in data[3]:
+              if items['id'] == int(id):
+                return render_template('card.html',data=items)
+      if Type == 'mangal':
+          for items in data[4]:
+              if items['id'] == int(id):
+                return render_template('card.html',data=items)
+      if Type == 'kangan':
+          for items in data[5]:
+              if items['id'] == int(id):
+                return render_template('card.html',data=items)
     return render_template('card.html',data='Order cannot be place.')
 
 @app.route('/order',methods=['POST'])
