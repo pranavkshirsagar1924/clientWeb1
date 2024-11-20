@@ -1,177 +1,407 @@
 [
-    {
-        "id": 1,
-        "title": "Gold Necklace",
-        "description": "An elegant 18k gold necklace with a timeless design, perfect for any special occasion.",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
-        "price": "Rs 12,450"
-    },
-    {
-        "id": 2,
-        "title": "Gold Earrings",
-        "description": "Stylish 22k gold earrings that add a touch of sophistication to any outfit.",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
-        "price": "Rs 16,600"
-    },
-    {
-        "id": 3,
-        "title": "Gold Bracelet",
-        "description": "A beautifully crafted 14k gold bracelet, designed to add elegance and charm to your wrist.",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
-        "price": "Rs 9,960"
-    },
-    {
-        "id": 4,
-        "title": "Gold Ring",
-        "description": "A stunning 18k gold ring, perfect for engagements or as a luxury gift.",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
-        "price": "Rs 20,750"
-    },
-    {
-        "id": 5,
-        "title": "Gold Pendant",
-        "description": "An intricate 22k gold pendant, designed to be the perfect centerpiece for any necklace.",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
-        "price": "Rs 14,940"
-    },
-    {
-        "id": 6,
-        "title": "Gold Chain",
-        "description": "A classic 24k gold chain, perfect for layering or as a standalone piece.",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
-        "price": "Rs 29,050"
-    },
-    {
-        "id": 7,
-        "title": "Gold Anklet",
-        "description": "A delicate 18k gold anklet that adds a touch of elegance to any summer outfit.",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
-        "price": "Rs 7,885"
-    },
-    {
-        "id": 8,
-        "title": "Gold Watch",
-        "description": "A luxurious 22k gold watch, combining timeless design with modern functionality.",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
-        "price": "Rs 41,650"
-    },
-    {
-        "id": 9,
-        "title": "Gold Cufflinks",
-        "description": "A pair of refined 14k gold cufflinks, perfect for formal occasions and adding a sophisticated touch.",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
-        "price": "Rs 8,300"
-    },
-    {
-        "id": 10,
-        "title": "Gold Brooch",
-        "description": "A vintage-style 18k gold brooch, perfect for adding a vintage touch to your outfit.",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
-        "price": "Rs 6,225"
-    },
-    {
-        "id": 11,
-        "title": "Gold Toe Ring",
-        "description": "A stylish 22k gold toe ring, designed to enhance your look for the warmer seasons.",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
-        "price": "Rs 3,320"
-    },
-    {
-        "id": 12,
-        "title": "Gold Hairpin",
-        "description": "A delicate 24k gold hairpin to elegantly hold your hairstyle in place, adding a refined touch.",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
-        "price": "Rs 5,000"
-    },
-    {
-        "id": 13,
-        "title": "Gold Nose Pin",
-        "description": "A stunning 18k gold nose pin, a simple yet elegant accessory to enhance your facial features.",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
-        "price": "Rs 3,320"
-    },
-    {
-        "id": 14,
-        "title": "Gold Earrings Set",
-        "description": "A set of matching 22k gold earrings, designed for special occasions or everyday elegance.",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
-        "price": "Rs 18,300"
-    },
-    {
-        "id": 15,
-        "title": "Gold Engagement Ring",
-        "description": "A luxurious 18k gold engagement ring, designed to make the perfect proposal.",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
-        "price": "Rs 41,650"
-    },
-    {
-        "id": 16,
-        "title": "Gold Keychain",
-        "description": "A sleek and stylish 14k gold keychain, perfect for personalizing your keys.",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
-        "price": "Rs 2,490"
-    },
-    {
-        "id": 17,
-        "title": "Gold Hair Comb",
-        "description": "An intricate 22k gold hair comb, designed for elegance and style.",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
-        "price": "Rs 7,470"
-    },
-    {
-        "id": 18,
-        "title": "Gold Wedding Band",
-        "description": "A classic 24k gold wedding band, symbolizing love and commitment.",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
-        "price": "Rs 24,900"
-    },
-    {
-        "id": 19,
-        "title": "Gold Pendant Necklace",
-        "description": "A stunning gold pendant necklace that makes a beautiful statement on any occasion.",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
-        "price": "Rs 16,600"
-    },
-    {
-        "id": 20,
-        "title": "Gold Cocktail Ring",
-        "description": "An eye-catching 18k gold cocktail ring, perfect for making a bold statement.",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
-        "price": "Rs 13,290"
-    },
-    {
-        "id": 21,
-        "title": "Gold Charm Bracelet",
-        "description": "A charming 14k gold bracelet with small gold charms, perfect for adding a personal touch.",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
-        "price": "Rs 12,450"
-    },
-    {
-        "id": 22,
-        "title": "Gold Cuff Bracelet",
-        "description": "A minimalist 22k gold cuff bracelet, perfect for any occasion.",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
-        "price": "Rs 14,940"
-    },
-    {
-        "id": 23,
-        "title": "Gold Hoop Earrings",
-        "description": "Classic 18k gold hoop earrings, a perfect accessory for everyday wear.",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
-        "price": "Rs 15,770"
-    },
-    {
-        "id": 24,
-        "title": "Gold Candle Holder",
-        "description": "A luxurious gold candle holder with intricate detailing, perfect for any sophisticated space.",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
-        "price": "Rs 4,565"
-    },
-    {
-        "id": 25,
-        "title": "Gold Decorative Wall Panel",
-        "description": "A decorative gold wall panel, featuring intricate gold ornament work.",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MeX_I1YsCNo2j72QhItfMt6tN7TFsZO6bA&s",
-        "price": "Rs 7,060"
-    }
+    [
+        {
+            "id": 1,
+            "title": "Gold Necklace",
+            "description": "An elegant 18k gold necklace with a timeless design, perfect for any special occasion.",
+            "img": "https://images.pexels.com/photos/10475794/pexels-photo-10475794.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 12,450"
+        },
+        {
+            "id": 2,
+            "title": "Gold Earrings",
+            "description": "Stylish 22k gold earrings that add a touch of sophistication to any outfit.",
+            "img": "https://images.pexels.com/photos/8891953/pexels-photo-8891953.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 16,600"
+        },
+        {
+            "id": 3,
+            "title": "Gold Bracelet",
+            "description": "A beautifully crafted 14k gold bracelet, designed to add elegance and charm to your wrist.",
+            "img": "https://images.pexels.com/photos/10475792/pexels-photo-10475792.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 9,960"
+        },
+        {
+            "id": 4,
+            "title": "Gold Ring",
+            "description": "A stunning 18k gold ring, perfect for engagements or as a luxury gift.",
+            "img": "https://images.pexels.com/photos/10475792/pexels-photo-10475792.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 20,750"
+        },
+        {
+            "id": 5,
+            "title": "Gold Pendant",
+            "description": "An intricate 22k gold pendant, designed to be the perfect centerpiece for any necklace.",
+            "img": "https://images.pexels.com/photos/10475794/pexels-photo-10475794.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 14,940"
+        },
+        {
+            "id": 6,
+            "title": "Gold Chain",
+            "description": "A classic 24k gold chain, perfect for layering or as a standalone piece.",
+            "img": "https://images.pexels.com/photos/8891951/pexels-photo-8891951.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 29,050"
+        },
+        {
+            "id": 7,
+            "title": "Gold Anklet",
+            "description": "A delicate 18k gold anklet that adds a touch of elegance to any summer outfit.",
+            "img": "https://images.pexels.com/photos/10976655/pexels-photo-10976655.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 7,885"
+        },
+        {
+            "id": 8,
+            "title": "Gold Watch",
+            "description": "A luxurious 22k gold watch, combining timeless design with modern functionality.",
+            "img": "https://images.pexels.com/photos/28985980/pexels-photo-28985980/free-photo-of-elegant-rose-gold-pendant-with-pearl-on-soft-background.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 41,650"
+        },
+        {
+            "id": 9,
+            "title": "Gold Cufflinks",
+            "description": "A pair of refined 14k gold cufflinks, perfect for formal occasions and adding a sophisticated touch.",
+            "img": "https://images.pexels.com/photos/8891958/pexels-photo-8891958.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 8,300"
+        },
+        {
+            "id": 10,
+            "title": "Gold Brooch",
+            "description": "A vintage-style 18k gold brooch, perfect for adding a vintage touch to your outfit.",
+            "img": "https://images.pexels.com/photos/6716446/pexels-photo-6716446.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 6,225"
+        },
+        {
+            "id": 11,
+            "title": "Gold Toe Ring",
+            "description": "A stylish 22k gold toe ring, designed to enhance your look for the warmer seasons.",
+            "img": "https://images.pexels.com/photos/29193428/pexels-photo-29193428/free-photo-of-elegant-rose-pendant-necklace-jewelry-photography.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 3,320"
+        },
+        {
+            "id": 12,
+            "title": "Gold Hairpin",
+            "description": "A delicate 24k gold hairpin to elegantly hold your hairstyle in place, adding a refined touch.",
+            "img": "https://images.pexels.com/photos/8891957/pexels-photo-8891957.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 5,000"
+        },
+        {
+            "id": 13,
+            "title": "Gold Nose Pin",
+            "description": "A stunning 18k gold nose pin, a simple yet elegant accessory to enhance your facial features.",
+            "img": "https://images.pexels.com/photos/14111395/pexels-photo-14111395.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 3,320"
+        },
+        {
+            "id": 14,
+            "title": "Gold Earrings Set",
+            "description": "A set of matching 22k gold earrings, designed for special occasions or everyday elegance.",
+            "img": "https://images.pexels.com/photos/8306528/pexels-photo-8306528.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 18,300"
+        },
+        {
+            "id": 15,
+            "title": "Gold Engagement Ring",
+            "description": "A luxurious 18k gold engagement ring, designed to make the perfect proposal.",
+            "img": "https://images.pexels.com/photos/6716442/pexels-photo-6716442.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 41,650"
+        },
+        {
+            "id": 16,
+            "title": "Gold Keychain",
+            "description": "A sleek and stylish 14k gold keychain, perfect for personalizing your keys.",
+            "img": "https://images.pexels.com/photos/8935232/pexels-photo-8935232.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 2,490"
+        },
+        {
+            "id": 17,
+            "title": "Gold Hair Comb",
+            "description": "An intricate 22k gold hair comb, designed for elegance and style.",
+            "img": "https://images.pexels.com/photos/6716442/pexels-photo-6716442.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 7,470"
+        },
+        {
+            "id": 18,
+            "title": "Gold Wedding Band",
+            "description": "A classic 24k gold wedding band, symbolizing love and commitment.",
+            "img": "https://images.pexels.com/photos/6716441/pexels-photo-6716441.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 24,900"
+        },
+        {
+            "id": 19,
+            "title": "Gold Pendant Necklace",
+            "description": "A stunning gold pendant necklace that makes a beautiful statement on any occasion.",
+            "img": "https://images.pexels.com/photos/6716443/pexels-photo-6716443.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 16,600"
+        },
+        {
+            "id": 20,
+            "title": "Gold Cocktail Ring",
+            "description": "An eye-catching 18k gold cocktail ring, perfect for making a bold statement.",
+            "img": "https://images.pexels.com/photos/6716445/pexels-photo-6716445.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 13,290"
+        },
+        {
+            "id": 21,
+            "title": "Gold Charm Bracelet",
+            "description": "A charming 14k gold bracelet with small gold charms, perfect for adding a personal touch.",
+            "img": "https://images.pexels.com/photos/11310658/pexels-photo-11310658.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 12,450"
+        },
+        {
+            "id": 22,
+            "title": "Gold Cuff Bracelet",
+            "description": "A minimalist 22k gold cuff bracelet, perfect for any occasion.",
+            "img": "https://images.pexels.com/photos/8306527/pexels-photo-8306527.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 14,940"
+        },
+        {
+            "id": 23,
+            "title": "Gold Hoop Earrings",
+            "description": "Classic 18k gold hoop earrings, a perfect accessory for everyday wear.",
+            "img": "https://images.pexels.com/photos/8306532/pexels-photo-8306532.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 15,770"
+        },
+        {
+            "id": 24,
+            "title": "Gold Candle Holder",
+            "description": "A luxurious gold candle holder with intricate detailing, perfect for any sophisticated space.",
+            "img": "https://images.pexels.com/photos/6636001/pexels-photo-6636001.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 4,565"
+        }
+    ],
+    [
+        {
+            "id": 24,
+            "title": "Gold Candle Holder",
+            "description": "A luxurious gold candle holder with intricate detailing, perfect for any sophisticated space.",
+            "img": "https://images.pexels.com/photos/9634288/pexels-photo-9634288.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 4,565"
+        },
+        {
+            "id": 25,
+            "title": "Silver Vase",
+            "description": "A sleek silver vase that adds a touch of elegance to your living room decor.",
+            "img": "https://images.pexels.com/photos/6559610/pexels-photo-6559610.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 3,999"
+        },
+        {
+            "id": 26,
+            "title": "Antique Mirror",
+            "description": "A vintage-style antique mirror that brings timeless charm to any room.",
+            "img": "https://images.pexels.com/photos/25283496/pexels-photo-25283496/free-photo-of-a-golden-necklace.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 7,890"
+        },
+        {
+            "id": 27,
+            "title": "Crystal Chandelier",
+            "description": "A dazzling crystal chandelier that illuminates your space with grandeur.",
+            "img": "https://images.pexels.com/photos/29107752/pexels-photo-29107752/free-photo-of-elegant-diamond-ring-with-rose-gold-band.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 15,320"
+        },
+        {
+            "id": 28,
+            "title": "Decorative Clock",
+            "description": "A charming decorative clock that blends functionality with vintage aesthetics.",
+            "img": "https://images.pexels.com/photos/1447367/pexels-photo-1447367.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 2,750"
+        },
+        {
+            "id": 29,
+            "title": "Ceramic Bowl Set",
+            "description": "An elegant ceramic bowl set that complements any dining table setting.",
+            "img": "https://images.pexels.com/photos/10562311/pexels-photo-10562311.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 1,850"
+        },
+        {
+            "id": 30,
+            "title": "Bronze Statue",
+            "description": "A handcrafted bronze statue that adds a touch of artistic sophistication.",
+            "img": "https://images.pexels.com/photos/28985977/pexels-photo-28985977/free-photo-of-elegant-lion-head-diamond-ring-in-rose-gold.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 12,450"
+        },
+        {
+            "id": 31,
+            "title": "Velvet Cushion Cover",
+            "description": "A plush velvet cushion cover that exudes luxury and comfort.",
+            "img": "https://images.pexels.com/photos/11139357/pexels-photo-11139357.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 999"
+        },
+        {
+            "id": 32,
+            "title": "Wooden Jewelry Box",
+            "description": "A beautifully crafted wooden jewelry box for safekeeping your precious accessories.",
+            "img": "https://images.pexels.com/photos/6689396/pexels-photo-6689396.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 3,250"
+        },
+        {
+            "id": 33,
+            "title": "Marble Tray",
+            "description": "A stylish marble tray perfect for serving or as a decorative piece.",
+            "img": "https://images.pexels.com/photos/17068457/pexels-photo-17068457/free-photo-of-close-up-of-rings-with-shiny-stones.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 5,600"
+        },
+        {
+            "id": 331,
+            "title": "Marble Tray",
+            "description": "A stylish marble tray perfect for serving or as a decorative piece.",
+            "img": "https://images.pexels.com/photos/17068457/pexels-photo-17068457/free-photo-of-close-up-of-rings-with-shiny-stones.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 5,600"
+        },
+        {
+            "id": 332,
+            "title": "Marble Tray",
+            "description": "A stylish marble tray perfect for serving or as a decorative piece.",
+            "img": "https://images.pexels.com/photos/17068457/pexels-photo-17068457/free-photo-of-close-up-of-rings-with-shiny-stones.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 5,600"
+        }
+    ],
+    [
+        {
+            "id": 330,
+            "title": "Elegant Gold Ring",
+            "description": "A beautifully designed gold ring with intricate patterns, ideal for special occasions.",
+            "img": "https://images.pexels.com/photos/1447367/pexels-photo-1447367.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 25,000"
+        },
+        {
+            "id": 34,
+            "title": "Classic Wedding Ring",
+            "description": "A timeless gold wedding band, symbolizing eternal love and commitment.",
+            "img": "https://images.pexels.com/photos/1447367/pexels-photo-1447367.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 15,000"
+        },
+        {
+            "id": 35,
+            "title": "Designer Gold Ring",
+            "description": "A modern designer gold ring featuring a unique and bold artistic design.",
+            "img": "https://images.pexels.com/photos/1447367/pexels-photo-1447367.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 40,000"
+        },
+        {
+            "id": 36,
+            "title": "Floral Gold Ring",
+            "description": "A delicate gold ring with floral engravings, perfect for everyday elegance.",
+            "img": "https://images.pexels.com/photos/1447367/pexels-photo-1447367.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 12,000"
+        },
+        {
+            "id": 37,
+            "title": "Antique Gold Ring",
+            "description": "An antique-style gold ring with a vintage charm, ideal for collectors.",
+            "img": "https://images.pexels.com/photos/1447367/pexels-photo-1447367.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 50,000"
+        }
+    ],
+    [
+        {
+            "id": 38,
+            "title": "Heart-Shaped Gold Pendant",
+            "description": "A stunning heart-shaped gold pendant, symbolizing love and affection.",
+            "img": "https://images.pexels.com/photos/1447367/pexels-photo-1447367.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 12,500"
+        },
+        {
+            "id": 39,
+            "title": "Floral Design Pendant",
+            "description": "A delicate floral gold pendant that exudes natural beauty and charm.",
+            "img": "https://images.pexels.com/photos/1447367/pexels-photo-1447367.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 9,800"
+        },
+        {
+            "id": 40,
+            "title": "Modern Geometric Pendant",
+            "description": "A contemporary gold pendant featuring a sleek geometric design.",
+            "img": "https://images.pexels.com/photos/1447367/pexels-photo-1447367.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 15,000"
+        },
+        {
+            "id": 41,
+            "title": "Gold Locket Pendant",
+            "description": "A classic gold locket pendant to keep your treasured memories close.",
+            "img": "https://images.pexels.com/photos/1447367/pexels-photo-1447367.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 22,000"
+        },
+        {
+            "id": 42,
+            "title": "Antique Gold Pendant",
+            "description": "An intricately designed antique gold pendant with a vintage appeal.",
+            "img": "https://images.pexels.com/photos/1447367/pexels-photo-1447367.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 18,500"
+        }
+    ],
+    [
+        {
+            "id": 43,
+            "title": "Traditional Gold Mangalsutra",
+            "description": "A classic gold mangalsutra with traditional black beads and a detailed gold pendant.",
+            "img": "https://images.pexels.com/photos/1447367/pexels-photo-1447367.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 18,000"
+        },
+        {
+            "id": 44,
+            "title": "Modern Minimalist Mangalsutra",
+            "description": "A sleek and contemporary gold mangalsutra designed for the modern bride.",
+            "img": "https://images.pexels.com/photos/1447367/pexels-photo-1447367.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 14,500"
+        },
+        {
+            "id": 45,
+            "title": "Diamond-Studded Mangalsutra",
+            "description": "An elegant gold mangalsutra adorned with sparkling diamonds for added luxury.",
+            "img": "https://images.pexels.com/photos/1447367/pexels-photo-1447367.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 35,000"
+        },
+        {
+            "id": 46,
+            "title": "Short Gold Mangalsutra",
+            "description": "A short and lightweight gold mangalsutra, perfect for everyday wear.",
+            "img": "https://images.pexels.com/photos/1447367/pexels-photo-1447367.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 12,000"
+        },
+        {
+            "id": 47,
+            "title": "Antique Gold Mangalsutra",
+            "description": "A vintage-inspired gold mangalsutra with intricate craftsmanship and timeless elegance.",
+            "img": "https://images.pexels.com/photos/1447367/pexels-photo-1447367.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 25,000"
+        }
+    ],
+    [
+        {
+            "id": 48,
+            "title": "Traditional Gold Kangan",
+            "description": "A stunning pair of traditional gold kangans with intricate detailing, perfect for weddings and festive occasions.",
+            "img": "https://images.pexels.com/photos/1447367/pexels-photo-1447367.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 85,000"
+        },
+        {
+            "id": 49,
+            "title": "Antique Gold Kangan",
+            "description": "An antique-style gold kangan featuring unique patterns and a vintage charm.",
+            "img": "https://images.pexels.com/photos/1447367/pexels-photo-1447367.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 95,000"
+        },
+        {
+            "id": 50,
+            "title": "Minimalist Gold Kangan",
+            "description": "A sleek and lightweight gold kangan designed for modern everyday wear.",
+            "img": "https://images.pexels.com/photos/1447367/pexels-photo-1447367.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 45,000"
+        },
+        {
+            "id": 51,
+            "title": "Diamond-Studded Gold Kangan",
+            "description": "A luxurious gold kangan adorned with sparkling diamonds, adding elegance to your collection.",
+            "img": "https://images.pexels.com/photos/1447367/pexels-photo-1447367.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 1,20,000"
+        },
+        {
+            "id": 52,
+            "title": "Floral Gold Kangan",
+            "description": "A delicate gold kangan with floral patterns, blending tradition with modern aesthetics.",
+            "img": "https://images.pexels.com/photos/1447367/pexels-photo-1447367.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "price": "Rs 65,000"
+        }
+    ]
+    
 ]
