@@ -2,48 +2,160 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
-        integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.min.css"
-        integrity="sha512-i1b/nzkVo97VN5WbEtaPebBG8REvjWeqNclJ6AItj7msdVcaveKrlIIByDpvjk5nwHjXkIqGZscVxOrTb9tsMA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/static/index.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Home page</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
+    integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.min.css"
+    integrity="sha512-i1b/nzkVo97VN5WbEtaPebBG8REvjWeqNclJ6AItj7msdVcaveKrlIIByDpvjk5nwHjXkIqGZscVxOrTb9tsMA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/static/index.css">
 </head>
 
 <body>
-    <nav class="navbar">
-        <img src="/static/logo.svg">
-    </nav>
-    <div class="main-board">
-        <div class="button-board">
-            <img src="/static/logo.svg" id="logo">
-            <p id="tagline">तुमचं सौंदर्य आणि आमचं दागिनंं, दोन्ही एकमेकांना परफेक्टच दिसतात!</p>
-        </div>
+  <nav class="navbar">
+    <div class="cats" id="cats">
+      <button id="ring" data-data="{{ring}}">Rings</button>
+      <button id="pen" data-data="{{pen}}">Pendant</button>
+      <button id="mangal" data-data="{{mangal}}">Mangalsutra</button>
+      <button id="kangan" data-data="{{kangan}}">kangan</button>
     </div>
-    <div id="cardBoard">
-        <div class="box">
-            {% for card in data%}
-            <div class="card">
-                <div class="thumbnail">
-                    <img src="{{card.img}}">
-                </div>
-                <div class="title">{{card.title}}</div>
-                <div class="desc">{{card.description}}</div>
-                <div style="display: flex;">
-                    <div class="price" style="margin: 0.5rem;">{{card.price}}</div>
-                    <a href='/card?id={{card.id}}' style="margin: 0.5rem;"><button id="{{loop.index0}}">Add</button></a>
-                </div>
-            </div>
-            {% endfor %}
+  </nav>
+  <div id="cat-board"></div>
+  <section class="slider_container">
+    <section class="slider">
+      <div class="slide one">
+        <img src="https://www.shutterstock.com/image-photo/making-handmade-jewelry-friends-christmas-260nw-1868623936.jpg" alt="">
+      </div>
+      <div class="slide two">
+        <img src="https://bhrigu.store/wp-content/uploads/2023/12/banner-3-big.jpg" alt="">
+      </div>
+      <div class="slide three">
+        <img src="https://t4.ftcdn.net/jpg/03/97/34/39/360_F_397343924_6WlXOaMVHNKkhMs2l8AHJ5e9MQ03YiBU.jpg" alt="">
+      </div>
+      <div class="slide four">
+        <img src="https://www.shutterstock.com/image-photo/banner-necklace-earrings-made-natural-260nw-2278769117.jpg" alt="">
+      </div>
+      <div class="slide four">
+        <img src="https://images.pexels.com/photos/11825297/pexels-photo-11825297.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+      </div>
+    </section>
+  </section>
+  <h1>&nbsp;&nbsp;Latest From Us</h1>
+
+  <div class="gallery">
+    <!-- Replace with your image URLs -->
+    <img src="https://images.pexels.com/photos/3641056/pexels-photo-3641056.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Gallery Image 1">
+    <img src="https://images.pexels.com/photos/3309659/pexels-photo-3309659.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Gallery Image 2">
+    <img src="https://images.pexels.com/photos/1395306/pexels-photo-1395306.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Gallery Image 3">
+    <img src="https://images.pexels.com/photos/3641064/pexels-photo-3641064.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Gallery Image 4">
+    <img src="https://images.pexels.com/photos/29385411/pexels-photo-29385411/free-photo-of-elegant-gold-bangle-with-leaf-design.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Gallery Image 5">
+    <img src="https://images.pexels.com/photos/265906/pexels-photo-265906.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Gallery Image 6">
+  </div>
+  <div id="cardBoard">
+    <h1>Make Quick purchase</h1>
+    <div class="box">
+      {% for card in data%}
+      <div class="card">
+        <div class="thumbnail">
+          <img src="{{card.img}}">
         </div>
+        <div class="title">{{card.title}}</div>
+        <div class="desc">{{card.description}}</div>
+        <div style="display: flex;">
+          <div class="price" style="margin: 0.5rem;">{{card.price}}</div>
+          <a href='/card?id={{card.id}}&type=card' style="margin: 0.5rem;"><button id="{{loop.index0}}">Add</button></a>
+        </div>
+      </div>
+      {% endfor %}
     </div>
-    <script src="/static/index.js"></script>
+  </div>
+  <h1>&nbsp;&nbsp;Browse in affordable price</h1>
+  <div class="containerx">
+    {% for pin in pins%}
+    <div class="box">
+      <a href="/card?id={{pin.id}}&type=pin">
+        <img src="{{pin.img}}" alt="image">
+      </a>
+      <div class="caption">{{pin.title}}</div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <footer class="footer" style="background-color: purple;">
+    <div>
+        {% for item in pen%}
+         <a href="/card?id={{item.id}}&type=pen" style="text-decoration: none;color:white;margin:0.5rem;"><u>{{item.title}}</u></a><br><br>
+        {% endfor %}
+    </div>
+    <div>
+      {% for j in ring%}
+       <a href="/card?id={{j.id}}&type=ring" style="text-decoration: none;color:white;margin:0.5rem;"><u>{{j.title}}</u></a><br><br>
+      {% endfor %}
+  </div>
+  </footer>
+  <script>
+    const catBoard = document.getElementById('cat-board');
+    class Cats {
+      constructor() {
+        this.parent = catBoard;
+      }
+      tiles(data,type) {
+        catBoard.style.display = 'block';
+        while (this.parent.firstChild) {
+          this.parent.removeChild(this.parent.firstChild);
+        }
+
+        this.data = data;
+        this.data.map(ele => {
+          const tile = document.createElement('div');
+          tile.className = 'tile';
+          tile.innerHTML = `
+            <a href='/card?id=${ele.id}&type=${type}' style='text-decoration:none;'>
+              <div class='xcl'>
+                <div class='tile-img' style='pointer-events:none;'>
+                    <img src='${ele.img}'>
+                </div>
+                <div class='title' style='pointer-events:none;'>
+                  ${ele.title}<br>${ele.price}
+                </div>
+               </div>
+            </a>
+          `;
+          this.parent.appendChild(tile);
+        });
+      }
+    }
+    Array.from(document.getElementById('cats').querySelectorAll('button'))
+      .forEach(ele => {
+        ele.addEventListener('click', (e) => {
+          let data = e.target.dataset.data;
+          data = JSON.parse(data.replace(/'/g, '"'))
+          new Cats().tiles(data,e.target.id);
+        })
+      });
+    document.body.addEventListener('click', (e) => {
+      const catBoard = document.getElementById('cat-board');
+      const searchResults = document.getElementById('res');
+      const catsDiv = document.getElementById('cats');
+      if (catBoard.contains(e.target) || catsDiv.contains(e.target)) {
+        // If the click is inside cat-board or on any button inside cats, do nothing
+        console.log('Click is inside cat-board or on a button inside cats');
+        // Prevent hiding the results div if it's a button click
+        catBoard.style.display = 'block'; // Keep results visible
+      } else {
+        // If the click is outside of 'cat-board' and 'cats', hide the results div
+        console.log('Click is outside cat-board and cats');
+        catBoard.style.display = 'none';  // Hide results
+      }
+    });
+
+
+  </script>
 </body>
 
 </html>
