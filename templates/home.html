@@ -87,16 +87,7 @@
   </div>
 
   <footer class="footer" style="background-color: purple;">
-    <div>
-        {% for item in pen%}
-         <a href="/card?id={{item.id}}&type=pen" style="text-decoration: none;color:white;margin:0.5rem;"><u>{{item.title}}</u></a><br><br>
-        {% endfor %}
-    </div>
-    <div>
-      {% for j in ring%}
-       <a href="/card?id={{j.id}}&type=ring" style="text-decoration: none;color:white;margin:0.5rem;"><u>{{j.title}}</u></a><br><br>
-      {% endfor %}
-  </div>
+  
   </footer>
   <script>
     const catBoard = document.getElementById('cat-board');
