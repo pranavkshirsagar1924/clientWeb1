@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(241, 241, 241);
     margin: 0;
     padding: 0;
@@ -47,7 +47,7 @@ body {
 }
 
 .thumbnail img {
-    width: 100%;
+    width: auto;
     height: 20rem;
     border-bottom: 1px solid #ddd;
 }
