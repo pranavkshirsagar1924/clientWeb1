@@ -24,7 +24,6 @@ def home():
 def card():
     id = request.args.get('id')
     Type = request.args.get('type')
-    print(Type)
     with open ('static/data.json','r') as file:
       data = json.load(file)
       if Type == 'card':
