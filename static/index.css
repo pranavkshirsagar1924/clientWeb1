@@ -1,74 +1,140 @@
-body, html {
+  
+  /* Hide scrollbars for all elements */
+  * {
+    scrollbar-width: none; /* For Firefox */
+  }
+  
+  *::-webkit-scrollbar {
+    display: none;  /* For Chrome, Safari, and newer Edge */
+  }
+  
+body,
+html {
     margin: 0;
     padding: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     background-color: #f9f9f9;
 }
 
 /* Primary Theme Color */
 :root {
-    --primary-color: #6a0dad; /* Purple */
+    --primary-color: #6a0dad;
+    /* Purple */
 }
 
 /* Navbar Styles */
 .navbar {
-    position:sticky;
-    background-color: var(--primary-color);
-    padding: 1rem 2rem;
+    position: sticky;
+    padding: 1rem 0rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
-.navbar img {
-    height: 1.5rem; /* Logo height */
+.navbar button{
+    padding: none;
+    background-color: white;
+    color: purple;
 }
-
-/* Main Board Styles */
-.main-board {
-    margin-top: 2%;
-    height: 50vh;
-    width: 90%;
-    border-radius: 10px;
-    background-image: url('/static/cover.jpg');
-    padding: 4rem 0rem;
-    margin: 2rem;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.button-board {
-    margin-bottom: 2rem;
-    width: 50%;
+.slider_container {
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .slider {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    animation: 30s cubic-bezier(1, 0.95, 0.565, 1) sliding infinite;
+  }
+  
+  .slide {
+    min-width: 100%;
     height: 100%;
-}
-#logo{
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .slide .caption {
+    position: absolute;
+    left: 0;
+    bottom: 5%;
+    font-size: 5rem;
+    font-weight: 600;
+    color: white;
+    text-transform: capitalize;
+    background: rgba(0, 0, 0, 0.348);
+    backdrop-filter: blur(10px);
+    padding: 1rem 5rem;
+    border-radius: 0 2rem 2rem 0;
+  }
+  
+  .slide.one {
+    background: rgb(182, 19, 109);
+  }
+  .slide.two {
+    background: rgb(255, 64, 64);
+  }
+  .slide.three {
+    background: rgb(11, 173, 188);
+  }
+  .slide.four {
+    background: rgb(11, 188, 14);
+  }
+  .slide.five {
+    background: rgb(173, 11, 188);
+  }
+  
+  @keyframes sliding {
+    0% {
+      transform: translateX(0%);
+    }
+    20% {
+      transform: translateX(0%);
+    }
+    25% {
+      transform: translateX(-100%);
+    }
+    45% {
+      transform: translateX(-100%);
+    }
+    50% {
+      transform: translateX(-200%);
+    }
+    70% {
+      transform: translateX(-200%);
+    }
+    75% {
+      transform: translateX(-300%);
+    }
+    95% {
+      transform: translateX(-300%);
+    }
+    100% {
+      transform: translateX(-400%);
+    }
+  }
+#logo {
     width: 60%;
     height: auto;
 }
-#tagline{
-    font-size: 30px;
-    color: white;
-}
-.button-board h1 {
-    font-size: 2.5rem;
-    color: #fff;
-    font-weight: bold;
-    line-height: 1.3;
-    max-width: 80%;
-    margin: 0 auto;
-}
-
 /* Card Styles */
 #cardBoard {
     gap: 20px;
     padding: 2rem;
 }
 
-.card{
-    width: 15rem;
+.card {
+    width: 17.3rem;
     height: fit-content;
     display: inline-block;
     padding: 0.3rem;
@@ -80,6 +146,7 @@ body, html {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
+
 .thumbnail img {
     width: 100%;
     height: auto;
@@ -113,7 +180,7 @@ button {
     background-color: var(--primary-color);
     color: #fff;
     border: none;
-    padding: 0.5rem 1rem;
+    padding: 7px;
     font-size: 1rem;
     border-radius: 5px;
     cursor: pointer;
@@ -121,54 +188,176 @@ button {
 }
 
 button:hover {
-    background-color: #5e0a93; /* Darker purple for hover */
+    background-color: rgb(233, 231, 231);
+    /* Darker purple for hover */
 }
 
+.gallery {
+    margin-top: 0.5rem;
+    display: flex;
+    overflow: auto;
+    gap: 15px;
+    max-width: 100%;
+    width: 100%;
+}
+
+/* Individual Gallery Item */
+.gallery img {
+    margin: 0.5rem;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+/* Hover Effect */
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+.containerx {
+    width: 100%;
+    columns: 6;
+    column-gap: 20px;
+}
+
+.containerx .box {
+    width: 100%;
+    margin-bottom: 10px;
+    break-inside: avoid;
+    border-radius: 15px;
+}
+
+.containerx .box img {
+    max-width: 100%;
+    min-width: 100%;
+    border-radius: 10px;
+}
+
+
+img:hover {
+    opacity: .95;
+    box-shadow: 0 0 10px #fff;
+}
+
+.caption {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px;
+}
+#cat-board{
+    width: 100%;
+    border: 2px solid wheat;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+.tile {
+    display: flex;                /* Align the content horizontally */                /* Space between cards */
+    border: 1px solid #ddd;      /* Border around the card */
+    border-radius: 8px;           /* Rounded corners */
+    overflow: hidden;             /* Ensures content doesn't overflow outside the card */
+    width: 100%;                 /* Adjust card width */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for 3D effect */
+  }
+  
+  .xcl {
+    display: flex;
+    width: 100%;
+  }
+  
+  .tile-img {
+    width: 5rem;                /* Set width for the image */
+    height: 5rem;               /* Set height for the image */
+    overflow: hidden;            /* Ensure the image doesn't overflow */
+  }
+  
+  .tile-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;           /* Ensure the image covers the area while maintaining aspect ratio */
+  }
+  
+  .title {
+    flex: 1;                     /* Take up the remaining space */
+    padding: 10px;               /* Padding for spacing around text */
+    font-size: 16px;             /* Font size for the title */
+    font-weight: bold;           /* Bold the title */
+    color: #333;                 /* Dark color for the text */
+    text-overflow: ellipsis;     /* Add ellipsis when text overflows */
+    white-space: nowrap;         /* Prevent the title from wrapping to the next line */
+    overflow: hidden;            /* Hide overflowing text */
+  }
+  
+  .tile-img,
+  .title {
+    display: flex;
+    align-items: center;
+  }
+  footer{
+    display: flex;
+  }
+  footer div{
+    margin: 0.5rem;
+  }
 /* Responsiveness */
 @media screen and (max-width: 768px) {
-    .button-board h1 {
-        font-size: 2rem;
-    }
-
     #cardBoard {
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     }
-    .main-board{
-        width:100%;
+
+    .navbar img {
+        height: 10px;
+    }
+
+    .main-board {
         height: 10vh;
         margin: 0rem;
-        border-radius:0px;
     }
-     .button-board{
-        width: 60%;
-    }
-    #tagline{
-        font-size: 20px;
-    }
-    .card{
+    .card {
         width: 100%;
         padding: 0rem;
         margin: 0rem;
         margin-top: 0.3rem;
+    }
+    .containerx
+    {
+      columns: 2;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
     }
 }
+
 @media screen and (max-width:479px) {
-    .main-board{
-        width:100%;
+    .main-board {
         height: 10vh;
         margin: 0rem;
-        border-radius:0px;
     }
-     .button-board{
-        width: 60%;
+
+    .navbar img {
+        height: 1rem;
     }
-    #tagline{
-        font-size: 20px;
-    }
-    .card{
+
+    .card {
         width: 100%;
         padding: 0rem;
         margin: 0rem;
         margin-top: 0.3rem;
+    }
+    .containerx
+    {
+      columns: 2;
+    }
+    .slider_container{
+        height: 30vh;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
     }
 }
